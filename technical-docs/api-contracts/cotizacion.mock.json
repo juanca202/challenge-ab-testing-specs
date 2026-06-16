@@ -1,0 +1,93 @@
+{
+  "description": "Mock del contrato de cotización al hacer clic en Solicitar u Omitir.",
+  "mfeProps": {
+    "note": "El MFE debe recibir como props los datos del request y las acciones de navegación.",
+    "navigation": {
+      "nextPage": "/",
+      "backPage": "/"
+    },
+    "comment": "Rutas de ejemplo; el host define los valores reales."
+  },
+  "fieldNotes": {
+    "generaLead": "true solo cuando el cliente acepta el seguro",
+    "tipoIdentificacion": "Valores de ejemplo: C (cédula), P (pasaporte)"
+  },
+  "request": {
+    "metaData": {
+      "systemCode": "BB_WIDGET_SEGUROS_CTA",
+      "canal": "WAP",
+      "journey": "CUENTA_AHORRO_ONLINE"
+    },
+    "client": {
+      "tipoIdentificacion": "C",
+      "identificacion": "09XXXXXXXX",
+      "primerNombre": "Nombre",
+      "segundoNombre": "SegundoNombre",
+      "primerApellido": "primerApellido",
+      "segundoApellido": "segundoApellido",
+      "correo": "mail@ejemplo.com",
+      "celular": "09XXXXXXXX",
+      "fechaNacimiento": "2000-10-03",
+      "genero": "F",
+      "nacionalidad": "1",
+      "nacionalidadNombre": "ECUATORIANA",
+      "domicilio": {
+        "direccion": "DESCRIPCION: 1072535",
+        "provinciaCodigo": "9",
+        "provincia": "GUAYAS",
+        "cantonCodigo": "0901",
+        "canton": "GUAYAQUIL"
+      },
+      "situacionLaboral": "D",
+      "actividadEconomica": {
+        "codigoAE": "S05",
+        "detalleCodigoAE": "S05"
+      },
+      "ingresoMensual": {
+        "valor": 1500
+      },
+      "patrimonio": {
+        "valor": 0
+      },
+      "paisNacimiento": "ECU",
+      "estadoCivil": "SOLTERO",
+      "trabajo": {
+        "direccion": "lugar ejemplo",
+        "provinciaCodigo": "9",
+        "provincia": "GUAYAS",
+        "cantonCodigo": "0901",
+        "canton": "GUAYAQUIL",
+        "nombreEmpresa": "EMPRESA ACT.: 1072535"
+      },
+      "datosGenerales": {
+        "profesion": "18",
+        "descripcionProfesion": "INGENIERO QUIMICO"
+      }
+    },
+    "contextProduct": {
+      "tipo": "CUENTA",
+      "codigo": "I",
+      "nombre": "CUENTA_AHORROS"
+    },
+    "productoSelected": {
+      "productId": "PROTECCIÓN DIGITAL PLUS",
+      "planId": "PLAN A",
+      "product": "Cuenta Protegida",
+      "plan": "Plan Digital Plus",
+      "partnerId": "EQUI_SUIZA",
+      "flow": "CA",
+      "price": 4.99
+    },
+    "generaLead": false,
+    "aceptaSeguro": true
+  },
+  "response": {
+    "code": 200,
+    "message": "Success",
+    "data": {
+      "quoteId": "bafafb31-ba86-52fc-97dd-779c6a29d221",
+      "sessionId": "32397ba1-0701-4300-929b-712ef4b4f123",
+      "transactionId": "5304915187277335"
+    }
+  }
+}

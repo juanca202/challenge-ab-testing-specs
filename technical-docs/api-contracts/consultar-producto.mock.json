@@ -1,0 +1,83 @@
+{
+  "description": "Mock del contrato POST para consultar el producto de seguro embebido a presentar en la pantalla.",
+  "endpoint": {
+    "method": "POST",
+    "path": "Por definir en implementación"
+  },
+  "request": {
+    "identification": "09XXXXXXXX",
+    "identificationType": "C",
+    "channel": "WAP",
+    "birthDate": "2000-10-03",
+    "systemCode": "BB_WIDGET_SEGUROS_CTA",
+    "associatedProduct": "CUENTA"
+  },
+  "response": {
+    "code": 200,
+    "message": "Success",
+    "data": {
+      "products": [
+        {
+          "partnerId": "EQUI_SUIZA",
+          "productId": "PROTECCIÓN DIGITAL PLUS",
+          "plan": "PLAN A",
+          "typeProduct": "SEGURO",
+          "generalCategory": "ACCIDENTES PERSONALES",
+          "tradeName": "Cuenta Protegida",
+          "plantradeName": "Plan Digital Plus",
+          "title": "¡Agrega una protección extra para tu dinero!",
+          "subTitle": "Un respaldo real para los riesgos de hoy.",
+          "coverages": {
+            "description": "Tienes cobertura por:",
+            "items": [
+              {
+                "description": "Si te fuerzan a transferir desde tu celular recuperas <b> hasta $1,500 </b>",
+                "code": "APP_MOVIL",
+                "icon": "smartphone",
+                "name": "Si te fuerzan a transferir desde tu celular recuperas <b> hasta $1,500 </b>",
+                "amount": null
+              },
+              {
+                "description": "Si te clonan la tarjeta, recuperas <b> hasta $1,000</b>",
+                "code": "TARJETA_PROTEGIDA",
+                "icon": "credit-card",
+                "name": "Si te clonan la tarjeta, recuperas <b> hasta $1,000</b>",
+                "amount": null
+              },
+              {
+                "description": "Si sufres secuestro exprés, recuperas <b>hasta $600</b>",
+                "code": "SECUESTRO_EXPRESS",
+                "icon": "users",
+                "name": "Si sufres secuestro exprés, recuperas <b>hasta $600.</b>",
+                "amount": null
+              },
+              {
+                "description": "Y si lo peor ocurre como fallecimiento, tus seres queridos están protegidos <b>hasta $3,000</b>",
+                "code": "MUERTE_ACCIDENTAL",
+                "icon": "siren",
+                "name": "Y si lo peor ocurre como fallecimiento, tus seres queridos están protegidos <b>hasta $3,000</b>",
+                "amount": null
+              }
+            ]
+          },
+          "price": {
+            "amount": 4.99,
+            "frequencyPayment": "M",
+            "marketingDetail": {
+              "legalNotice": "Precio incluido impuestos",
+              "message": "Todo por solo <b> @{priceProduct} mensual </b>"
+            }
+          },
+          "documents": [
+            {
+              "type": "TERMINOS_CONDICIONES",
+              "codeDocument": "FRAUDE_DIGITAL_PLUS",
+              "product": "SEGUROS_ASISTENCIAS",
+              "name": "Terminos_condiciones_Seguro_Digital_Plus"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
