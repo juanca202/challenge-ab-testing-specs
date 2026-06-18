@@ -1,0 +1,213 @@
+{
+    "info": {
+      "_postman_id": "16ac85e6-98ea-4863-a62a-e8ee87cfeccf",
+      "name": "New Collection",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+      "_exporter_id": "3115154",
+      "_collection_link": "https://go.postman.co/collection/3115154-16ac85e6-98ea-4863-a62a-e8ee87cfeccf?source=collection_link"
+    },
+    "item": [
+      {
+        "name": "BB-productos",
+        "request": {
+          "auth": {
+            "type": "bearer",
+            "bearer": [
+              {
+                "key": "token",
+                "value": "eyJraWQiOiJvcklWaDM5SFBHZ2xxODhaaEpObnZtajBHWktJNXF6c3AwditMSGxZcnljPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI1bHJlcWU2M2gyMW44YW90cmFkdXZrN3ZkbSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiZGVmYXVsdC1tMm0tcmVzb3VyY2Utc2VydmVyLXlubnB5di9yZWFkIiwiYXV0aF90aW1lIjoxNzgxNzM5MzU1LCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tL3VzLWVhc3QtMV9vSTdqOWlZc1AiLCJleHAiOjE3ODE3NDI5NTUsImlhdCI6MTc4MTczOTM1NSwidmVyc2lvbiI6MiwianRpIjoiNWZhZDgwYTEtOWUxYy00YmEyLWEyYzItYmVhNzFmYTkwMDE3IiwiY2xpZW50X2lkIjoiNWxyZXFlNjNoMjFuOGFvdHJhZHV2azd2ZG0ifQ.Bs-intO2KL1OSqdFNcXdaiC6TsIPxqGdkYxr3YdJGHv75WzToSV5ij1fw_a3K7N-VxhdF6eLYo6vQiOi3TLDjuk584lTjkn7S3eot3HvfslJpY0VZ8W0d0OVhzzPnnD55P_KItLN-Sp1dvssYd1hNkPOZvRUJGzfZC3EDpeAT78WjZGRqIJSf-Y-z0rVf1NDVi1XvMZKVZKwt1FT6Rf96cQ2jTcklYX8cTNOKFS7emeFOHyHuSwTGOQkMW73P9yW885L4Y4TSIQkdHxbQLO3fZVC-0uQmEwD8n6fJoz8p0CPf1_Ez0QB19hm-VXWg8VJuDzddxPHL6ZT2DlXIyI8gw",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\r\n  \"identification\": \"123\",\r\n  \"identificationType\": \"CC\",\r\n  \"channel\": \"WEB\",\r\n  \"birthDate\": \"1990-01-01\",\r\n  \"systemCode\": \"SYS01\",\r\n  \"associatedProduct\": \"PROD01\"\r\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "https://yteooxnz46.execute-api.us-east-1.amazonaws.com/productos",
+            "protocol": "https",
+            "host": [
+              "yteooxnz46",
+              "execute-api",
+              "us-east-1",
+              "amazonaws",
+              "com"
+            ],
+            "path": [
+              "productos"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "BB-obtenerToken",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "auth": {
+            "type": "bearer",
+            "bearer": [
+              {
+                "key": "token",
+                "value": "eyJraWQiOiJvcklWaDM5SFBHZ2xxODhaaEpObnZtajBHWktJNXF6c3AwditMSGxZcnljPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI1bHJlcWU2M2gyMW44YW90cmFkdXZrN3ZkbSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiZGVmYXVsdC1tMm0tcmVzb3VyY2Utc2VydmVyLXlubnB5di9yZWFkIiwiYXV0aF90aW1lIjoxNzgxNzM5MzU1LCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tL3VzLWVhc3QtMV9vSTdqOWlZc1AiLCJleHAiOjE3ODE3NDI5NTUsImlhdCI6MTc4MTczOTM1NSwidmVyc2lvbiI6MiwianRpIjoiNWZhZDgwYTEtOWUxYy00YmEyLWEyYzItYmVhNzFmYTkwMDE3IiwiY2xpZW50X2lkIjoiNWxyZXFlNjNoMjFuOGFvdHJhZHV2azd2ZG0ifQ.Bs-intO2KL1OSqdFNcXdaiC6TsIPxqGdkYxr3YdJGHv75WzToSV5ij1fw_a3K7N-VxhdF6eLYo6vQiOi3TLDjuk584lTjkn7S3eot3HvfslJpY0VZ8W0d0OVhzzPnnD55P_KItLN-Sp1dvssYd1hNkPOZvRUJGzfZC3EDpeAT78WjZGRqIJSf-Y-z0rVf1NDVi1XvMZKVZKwt1FT6Rf96cQ2jTcklYX8cTNOKFS7emeFOHyHuSwTGOQkMW73P9yW885L4Y4TSIQkdHxbQLO3fZVC-0uQmEwD8n6fJoz8p0CPf1_Ez0QB19hm-VXWg8VJuDzddxPHL6ZT2DlXIyI8gw",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\r\n  \"identification\": \"123\",\r\n  \"identificationType\": \"CC\",\r\n  \"channel\": \"WEB\",\r\n  \"birthDate\": \"1990-01-01\",\r\n  \"systemCode\": \"SYS01\",\r\n  \"associatedProduct\": \"PROD01\"\r\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "https://yteooxnz46.execute-api.us-east-1.amazonaws.com/validar",
+            "protocol": "https",
+            "host": [
+              "yteooxnz46",
+              "execute-api",
+              "us-east-1",
+              "amazonaws",
+              "com"
+            ],
+            "path": [
+              "validar"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "BB-cotizaciones",
+        "request": {
+          "auth": {
+            "type": "bearer",
+            "bearer": [
+              {
+                "key": "token",
+                "value": "eyJraWQiOiJvcklWaDM5SFBHZ2xxODhaaEpObnZtajBHWktJNXF6c3AwditMSGxZcnljPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI1bHJlcWU2M2gyMW44YW90cmFkdXZrN3ZkbSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiZGVmYXVsdC1tMm0tcmVzb3VyY2Utc2VydmVyLXlubnB5di9yZWFkIiwiYXV0aF90aW1lIjoxNzgxNzM5MzU1LCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tL3VzLWVhc3QtMV9vSTdqOWlZc1AiLCJleHAiOjE3ODE3NDI5NTUsImlhdCI6MTc4MTczOTM1NSwidmVyc2lvbiI6MiwianRpIjoiNWZhZDgwYTEtOWUxYy00YmEyLWEyYzItYmVhNzFmYTkwMDE3IiwiY2xpZW50X2lkIjoiNWxyZXFlNjNoMjFuOGFvdHJhZHV2azd2ZG0ifQ.Bs-intO2KL1OSqdFNcXdaiC6TsIPxqGdkYxr3YdJGHv75WzToSV5ij1fw_a3K7N-VxhdF6eLYo6vQiOi3TLDjuk584lTjkn7S3eot3HvfslJpY0VZ8W0d0OVhzzPnnD55P_KItLN-Sp1dvssYd1hNkPOZvRUJGzfZC3EDpeAT78WjZGRqIJSf-Y-z0rVf1NDVi1XvMZKVZKwt1FT6Rf96cQ2jTcklYX8cTNOKFS7emeFOHyHuSwTGOQkMW73P9yW885L4Y4TSIQkdHxbQLO3fZVC-0uQmEwD8n6fJoz8p0CPf1_Ez0QB19hm-VXWg8VJuDzddxPHL6ZT2DlXIyI8gw",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\r\n    \"metaData\": {\r\n        \"systemCode\": \"BB_WIDGET_SEGUROS_CTA\",\r\n        \"canal\": \"WAP\",\r\n        \"journey\": \"CUENTA_AHORRO_ONLINE\"\r\n    },\r\n    \"client\": {\r\n        \"tipoIdentificacion\": \"C\",//\"P\"\r\n        \"identificacion\": \"09XXXXXXXX\",\r\n        \"primerNombre\": \"Nombre\",\r\n        \"segundoNombre\": \"SegundoNombre\",\r\n        \"primerApellido\": \"primerApellido\",\r\n        \"segundoApellido\": \"segundoApellido\",\r\n        \"correo\": \"mail@ejemplo.com\",\r\n        \"celular\": \"09XXXXXXXX\",\r\n        \"fechaNacimiento\": \"2000-10-03\",\r\n        \"genero\": \"F\",\r\n        \"nacionalidad\": \"1\",\r\n        \"nacionalidadNombre\": \"ECUATORIANA\",\r\n        \"domicilio\": {\r\n            \"direccion\": \"DESCRIPCION: 1072535\",\r\n            \"provinciaCodigo\": \"9\",\r\n            \"provincia\": \"GUAYAS\",\r\n            \"cantonCodigo\": \"0901\",\r\n            \"canton\": \"GUAYAQUIL\"\r\n        },\r\n        \"situacionLaboral\": \"D\",\r\n        \"actividadEconomica\": {\r\n            \"codigoAE\": \"S05\",\r\n            \"detalleCodigoAE\": \"S05\"\r\n        },\r\n        \"ingresoMensual\": {\r\n            \"valor\": 1500\r\n        },\r\n        \"patrimonio\": {\r\n            \"valor\": 0\r\n        },\r\n        \"paisNacimiento\": \"ECU\",\r\n        \"estadoCivil\": \"SOLTERO\",\r\n        \"trabajo\": {\r\n            \"direccion\": \"lugar ejemplo\",\r\n            \"provinciaCodigo\": \"9\",\r\n            \"provincia\": \"GUAYAS\",\r\n            \"cantonCodigo\": \"0901\",\r\n            \"canton\": \"GUAYAQUIL\",\r\n            \"nombreEmpresa\": \"EMPRESA ACT.: 1072535\"\r\n        },\r\n        \"datosGenerales\": {\r\n            \"profesion\": \"18\",\r\n            \"descripcionProfesion\": \"INGENIERO QUIMICO\"\r\n        }\r\n    },\r\n    \"contextProduct\": {\r\n        \"tipo\": \"CUENTA\",\r\n        \"codigo\": \"I\",\r\n        \"nombre\": \"CUENTA_AHORROS\"\r\n    },\r\n    \"productoSelected\": {\r\n        \"productId\": \"PROTECCIÓN DIGITAL PLUS\",\r\n        \"planId\": \"PLAN A\",\r\n        \"product\": \"Cuenta Protegida\",\r\n        \"plan\":\"Plan Digital Plus\",\r\n        \"partnerId\": \"EQUI_SUIZA\",\r\n        \"flow\": \"CA\",\r\n        \"price\":4.99\r\n    },\r\n    \"generaLead\": false, //\"el valor es true solo en los casos que el cliente acepte el seguro\"\r\n    \"aceptaSeguro\": true\r\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "https://yteooxnz46.execute-api.us-east-1.amazonaws.com/cotizaciones",
+            "protocol": "https",
+            "host": [
+              "yteooxnz46",
+              "execute-api",
+              "us-east-1",
+              "amazonaws",
+              "com"
+            ],
+            "path": [
+              "cotizaciones"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "bb-token-cognito",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content",
+              "value": "application/x-www-form-urlencoded",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "urlencoded",
+            "urlencoded": [
+              {
+                "key": "grant_type",
+                "value": "client_credentials",
+                "type": "text",
+                "uuid": "990c2126-eaf8-4ca3-bd2c-b88a32855861"
+              },
+              {
+                "key": "client_id",
+                "value": "5lreqe63h21n8aotraduvk7vdm",
+                "type": "text",
+                "uuid": "c49a3b26-fe2b-47b6-9566-6654e5f7cbc1"
+              },
+              {
+                "key": "client_secret",
+                "value": "86efjtjq980833skoh9visjau5tl7nsl4rb80c09k0nn4ioaj9k",
+                "type": "text",
+                "uuid": "ed80560d-8b5b-43f7-bb9d-2cfcf4f11599"
+              },
+              {
+                "key": "scope",
+                "value": "default-m2m-resource-server-ynnpyv/read",
+                "type": "text",
+                "uuid": "54449552-7ef6-463f-ae05-fd72dc1e4ee5"
+              }
+            ]
+          },
+          "url": {
+            "raw": "https://us-east-1oi7j9iysp.auth.us-east-1.amazoncognito.com/oauth2/token",
+            "protocol": "https",
+            "host": [
+              "us-east-1oi7j9iysp",
+              "auth",
+              "us-east-1",
+              "amazoncognito",
+              "com"
+            ],
+            "path": [
+              "oauth2",
+              "token"
+            ]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
