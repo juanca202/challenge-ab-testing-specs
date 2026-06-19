@@ -22,6 +22,7 @@
 - **Delimitación MFE móvil:** ![Delimitación MFE móvil](../../assets/requerimiento/image6.png)
 - **Delimitación MFE desktop:** ![Delimitación MFE desktop](../../assets/requerimiento/image7.png)
 - **Contratos de API:** [technical-docs/api-contracts/README.md](../../technical-docs/api-contracts/README.md)
+- **Casos de prueba (ADO):** [test-cases/README.md](./test-cases/README.md) — 16 test cases vinculados a [#29912](https://dev.azure.com/BayteqDev/Reto%20BBolivariano/_workitems/edit/29912)
 
 ## Criterios de aceptación
 
