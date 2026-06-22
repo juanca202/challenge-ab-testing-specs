@@ -1,4 +1,4 @@
-# TK-29917: Construir el microfrontend con AI SDLC
+# 29917: Construir el microfrontend con AI SDLC
 
 - Estado: Ready
 - Historia: [US-29912: Microfrontend de seguro embebido con experimentación A/B](./README.md)

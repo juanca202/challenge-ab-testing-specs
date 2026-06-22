@@ -1,4 +1,4 @@
-# TK-29918: Construir contenedor de microfrontend
+# 29918: Construir contenedor de microfrontend
 
 - Estado: Ready
 - Historia: [US-29912: Microfrontend de seguro embebido con experimentación A/B](./README.md)

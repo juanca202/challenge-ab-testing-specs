@@ -7,6 +7,7 @@ Material de referencia del piloto **A/B Testing en el flujo de contratación de 
 | Documento                                                                   | Descripción                                                                                   |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | [Requerimiento funcional](./requerimiento-ab-testing-seguro-embebido-bb.md) | Especificación completa del piloto (alcance, variantes A/B, RF, RNF, criterios de aceptación) |
+| [Arquitectura del microfrontend](./technical-docs/architecture.md)            | Diagramas de contexto, capas internas, flujo de datos y despliegue del remote MFE             |
 | [Contratos de API (mocks)](./technical-docs/api-contracts/README.md)        | Payloads de consulta de producto y cotización                                                 |
 | [Glosario](./glossary.md)                                                   | Términos del dominio                                                                          |
 | [US-29912 — Casos de prueba](./user-stories/US-29912-microfrontend/test-cases/README.md) | 16 test cases extraídos de Azure DevOps (vinculados a #29912)                    |
