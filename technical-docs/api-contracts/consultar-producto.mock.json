@@ -28,34 +28,34 @@
           "title": "¡Agrega una protección extra para tu dinero!",
           "subTitle": "Un respaldo real para los riesgos de hoy.",
           "coverages": {
-            "description": "Tienes cobertura por:",
+            "description": "Con nuestro seguro contra fraudes recibe coberturas en caso de:",
             "items": [
               {
-                "description": "Si te fuerzan a transferir desde tu celular recuperas <b> hasta $1,500 </b>",
+                "description": "Transferencias no reconocidas por robo desde tu cuenta hasta <b>$1.500</b>.",
                 "code": "APP_MOVIL",
                 "icon": "smartphone",
-                "name": "Si te fuerzan a transferir desde tu celular recuperas <b> hasta $1,500 </b>",
+                "name": "Transferencias no reconocidas por robo desde tu cuenta hasta $1.500.",
                 "amount": null
               },
               {
-                "description": "Si te clonan la tarjeta, recuperas <b> hasta $1,000</b>",
+                "description": "Transacciones con tu tarjeta no reconocidas por robo, clonación o falsificación hasta <b>$1,000</b>.",
                 "code": "TARJETA_PROTEGIDA",
                 "icon": "credit-card",
-                "name": "Si te clonan la tarjeta, recuperas <b> hasta $1,000</b>",
+                "name": "Transacciones con tu tarjeta no reconocidas por robo, clonación o falsificación hasta $1,000.",
                 "amount": null
               },
               {
-                "description": "Si sufres secuestro exprés, recuperas <b>hasta $600</b>",
+                "description": "Secuestro exprés restitución hasta <b>$600</b>.",
                 "code": "SECUESTRO_EXPRESS",
                 "icon": "users",
-                "name": "Si sufres secuestro exprés, recuperas <b>hasta $600.</b>",
+                "name": "Secuestro exprés restitución hasta $600.",
                 "amount": null
               },
               {
-                "description": "Y si lo peor ocurre como fallecimiento, tus seres queridos están protegidos <b>hasta $3,000</b>",
+                "description": "Muerte accidental por robo en cajero hasta <b>$3,000</b>.",
                 "code": "MUERTE_ACCIDENTAL",
                 "icon": "siren",
-                "name": "Y si lo peor ocurre como fallecimiento, tus seres queridos están protegidos <b>hasta $3,000</b>",
+                "name": "Muerte accidental por robo en cajero hasta $3,000.",
                 "amount": null
               }
             ]
