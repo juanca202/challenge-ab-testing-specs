@@ -11,3 +11,4 @@
 | **Cotización**                             | Registro en memoria (Redux) de la intención de contratación; el host consulta si el cliente aceptó u omitió el seguro.                                       |
 | **`systemCode`**                           | Identificador del widget: `BB_WIDGET_SEGUROS_CTA`.                                                                                                           |
 | **`associatedProduct` / `contextProduct`** | Producto bancario asociado (p. ej. cuenta de ahorros).                                                                                                       |
+| **Servicios adicionales / Ofertas complementarias** | Productos/servicios opcionales ofrecidos durante la apertura de cuenta de ahorros (p. ej. Avisos24 Premium, Cuenta Más). Catálogo vía `GET /services/additionals` ([US-002](user-stories/US-002-ofertas-complementarias-apertura-cuenta/README.md)). |

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "additionals": [
+      {
+        "id": "AVISOS24_PREMIUM",
+        "name": "Activa Avisos24 Premium",
+        "description": "Mantente informado de todos los movimientos de tu cuenta, de manera instantánea.",
+        "icon": "bell",
+        "cost": 1.75
+      },
+      {
+        "id": "CUENTA_MAS_AHORRO_PROGRAMADO",
+        "name": "Contrata Cuenta Más (Ahorro programado)",
+        "description": "Ahorra de forma mensual y obtén una tasa de interés preferencial. Precio total sin costos adicionales.",
+        "icon": "piggy-bank",
+        "cost": 0
+      }
+    ]
+  }
+}
